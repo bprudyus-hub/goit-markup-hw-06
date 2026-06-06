@@ -1,0 +1,80 @@
+.prtf.container{
+    width: 100%;
+    max-width: 1440px;
+}
+.prtf-page{
+padding: 120px 0 120px 0;
+}
+.portfolio_list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+}
+
+ .prtf-over{
+    position: relative;
+    overflow: hidden;
+ }
+
+ .portfolio_link{
+    transition: box-shadow 250ms ease-in-out;
+ }
+
+.portfolio_link:hover .overlay {
+  transform: translateY(0);
+   
+}
+
+.prtf-card{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+   
+}
+.porfolio_title{
+font-family: "Roboto";
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+margin-bottom: 8px;
+
+}
+.portfolio_text{
+font-family: "Roboto";
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transform: translateY(100%);
+transition: transform 250ms ease-in-out;
+background-color: #4d5ae5;
+
+transform: translatey(100%);
+}
+.text-overlay{
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        padding: 40px 32px;
+}
+
+.portfolio_link:hover {
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+}

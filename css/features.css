@@ -1,0 +1,45 @@
+.features {
+width: 100%;
+}
+.features-page{
+    padding: 120px 0;
+}
+
+.features-list{
+display: flex;
+gap: 24px; 
+
+}
+.features-item{
+width: calc((100% - 3 * 24px) / 4);
+}
+.icon-features{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+border: 1px solid #8E8F99;
+background-color: #F4F4FD ;
+height: 112px;
+margin-bottom: 8px;
+/* padding: 24px 100px 24px 100px; */
+
+}
+
+.features-title{
+font-family: "Roboto";
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.02em;
+line-height: 1.2;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+.features-text{
+font-family: "Roboto";
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
