@@ -1,28 +1,43 @@
-.hero-page{
-  width: 100%;
- max-width: 320px;
- margin: 0 auto;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/baner/hero-bg-320m.jpg);
-  padding: 72px 0; 
-  background-color: #2e2f42; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.hero{
 
+background:
+linear-gradient(
+180deg,
+rgba(46, 47, 66, 0.7) 0%,
+rgba(46, 47, 66, 0.7) 100%
+),
+url('../images/baner/hero-bg-320m.jpg');
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+line-height: 1.07;
+padding: 72px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-width: 320px;
+height: 432px;
+margin: 0 auto;
 }
+
+
+
 
 .hero_title{
 font-family: "Roboto";
-font-size: 56px;
 letter-spacing: 0.02em;
-line-height: 1.07;
 text-align: center;
 color: #FFFFFF;
 text-align: center;
-max-width: 496px;
 margin-left: auto;
 margin-right: auto;
-/* margin-bottom: 48px; */
+margin-bottom: 72px;
+max-width: 216px;
+line-height: 1.11;
+font-weight: 700;
+font-size: 36px;
+line-height: 111%;
 
 }
 
@@ -49,8 +64,117 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 transition: background-color 250ms ease-in-out;
 } 
 
+
 .btn_service:hover , 
 .btn_service:focus{
 background-color:#404BBF;
 
+}
+
+@media screen and (min-width: 768px) {
+  .hero{
+    min-width: 768px;
+    height: 436px;
+background:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+url('../images/baner/hero-bg-768t.jpg') ;
+}
+.hero.container{
+  padding: 0 15;;
+}
+.hero_title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  .btn_service{
+     margin-top: 36px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) {
+  .hero {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url('../images/baner/hero-320m-2x.jpg');
+    background-position:
+      top right,
+      center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .hero {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url(../images/baner/hero-t-2x.jpg);
+    background-position:
+      top right,
+      center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+.hero{
+min-width: 1158px;
+max-width: 1440px;
+height: 436px;
+background-position:
+top right,
+center;
+background-repeat: no-repeat;
+background-size: cover;
+background:
+linear-gradient(
+  180deg,
+  rgba(46, 47, 66, 0.7) 0%,
+  rgba(46, 47, 66, 0.7) 100%
+),
+url('../images/baner/hero-1158-1x.jpg') ;
+
+}
+.hero.container{
+  padding: 0 15;;
+}
+.hero_title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+  .hero {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%
+      ),
+      url('../images/baner/hero-1158-2x.jpg');
+    background-position:
+      top right,
+      center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

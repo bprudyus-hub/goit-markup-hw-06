@@ -76,3 +76,21 @@ a {
     --white: #fff;
     --dairy: #fcfcfc;
 }
+
+@media screen and (min-width: 768px) {
+
+    .hero_title {
+        font-size: 56px;
+        max-width: 496px;
+    }
+
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width:1158px) {
+    .container{
+        max-width: 1440px;
+    }
+}
