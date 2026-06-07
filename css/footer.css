@@ -4,20 +4,12 @@ padding: 100px 0;
 
 }
 
+
 .ftr-container{
   display: flex;   
   align-items: flex-start;
-
     padding: 0px 15px;
-    /* gap: 120px; */
-/* width: 1158px;
-height: 112px;
-max-width: 1158px; */
-/* margin-left: 141px; */
- /* justify-content: center;   */
-
 }  
-   
 
 
 .footer-studio{
@@ -38,7 +30,7 @@ margin-left: 60px;
 
 .footer_text{
 font-family: "Roboto";
-font-size: 16px;
+font-size: 16px;fix
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
