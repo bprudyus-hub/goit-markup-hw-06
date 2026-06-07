@@ -1,28 +1,16 @@
-.hero-container{
-    /* width: 100%;
- max-width: 1440px;
- margin: 0 auto;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg);
-  padding: 188px 0; 
-  background-color: #2e2f42; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
-
-}
-
 .hero-page{
   width: 100%;
- max-width: 1440px;
+ max-width: 320px;
  margin: 0 auto;
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/people-office.jpg);
-  padding: 188px 0; 
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7) , rgba(46, 47, 66, 0.7)) , url(../images/baner/hero-bg-320m.jpg);
+  padding: 72px 0; 
   background-color: #2e2f42; 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
 }
+
 .hero_title{
 font-family: "Roboto";
 font-size: 56px;
@@ -34,9 +22,10 @@ text-align: center;
 max-width: 496px;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 48px;
+/* margin-bottom: 48px; */
 
 }
+
 .btn_service{
 font-family: "Roboto" , sans-serif;
 font-size: 16px;
@@ -48,9 +37,10 @@ color: #ffff;
 background-color: #4D5AE5;
 cursor: pointer;
 display: block;
-min-width: 169px;
+max-width: 169px;
 height: 56px;
 border: none;
+margin-top: 72px;
 margin-left: auto;
 margin-right: auto;
 border-radius: 4px;

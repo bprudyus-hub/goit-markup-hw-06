@@ -1,25 +1,23 @@
 .team-page{
+flex-direction: column;
+align-items: center;
 background-color: #F4F4FD;
-padding: 120px 0;
+padding: 96px 0;
 }
 .or_team{
-font-family: "Roboto";
+font-family: "Roboto";  
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
-padding-top: 120px;
 margin-bottom: 72px;
    
 }
 .team_list{
-display: flex;
-gap: 24px;
 align-items: center;
-padding-bottom: 120px;
-justify-content: flex-start;
+margin: auto;
 }
 .team_link{
 background-color: #FFFFFF;
